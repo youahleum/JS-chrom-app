@@ -1,3 +1,82 @@
 .hidden {
   display: none;
 }
+body {
+  color: antiquewhite;
+  /* padding-top: 20%; */
+}
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: fill;
+  z-index: -1;
+  /* width: 100%; */
+  height: 100%;
+  /* display: block; margin: 0 auto; */
+  background-size: cover;
+}
+.box {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+}
+h2 {
+  margin-left: -120px;
+  font-size: 60px;
+}
+input {
+  width: 350px;
+  height: 50px;
+  border: none;
+  border-bottom: 3px solid white;
+  background: none;
+  color: white;
+  text-align: center;
+}
+input:first-child {
+  margin-left: -220px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+input:last-child {
+  margin-left: -220px;
+  width: 440px;
+  font-size: 20px;
+}
+input[type="submit"] {
+  border: 1px solid #888;
+  width: 90px;
+  background-color: none;
+  border-radius: 20px;
+  margin-left: 0;
+  font-size: 18px;
+}
+
+#quote {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  font-size: 16px;
+}
+#quote span {
+  display: block;
+  /* margin-bottom: 10px; */
+  text-align: right;
+}
+#weather {
+  position: absolute;
+  left: 3%;
+  top: 3%;
+  font-size: 20px;
+}
+ul {
+  width: 300px;
+  margin-left: -150px;
+  font-size: 20px;
+}
+#todo-list button {
+  margin-left: 10px;
+}
